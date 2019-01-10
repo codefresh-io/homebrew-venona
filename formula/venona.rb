@@ -1,4 +1,4 @@
-class venona < Formula
+class Venona < Formula
     desc "venona --help"
     homepage "http://docs.codefresh.io"
     url "https://github.com/codefresh-io/venona/releases/download/v0.6.2/venona_0.6.2_Darwin_x86_64.tar.gz"
