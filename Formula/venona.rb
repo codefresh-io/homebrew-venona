@@ -2,9 +2,9 @@
 class Venona < Formula
   desc "venona --help"
   homepage "http://docs.codefresh.io"
-  url "https://github.com/codefresh-io/venona/releases/download/v0.18.0/venona_0.18.0_Darwin_x86_64.tar.gz"
-  version "0.18.0"
-  sha256 "15a31e0b408326ee15158010e3fc2605bbe9ccf29b6fc40e01e0ed08735aba53"
+  url "https://github.com/codefresh-io/venona/releases/download/v0.19.0/venona_0.19.0_Darwin_x86_64.tar.gz"
+  version "0.19.0"
+  sha256 "74bf1429f5d1cfa86bce75c4d59633509b7c5f153bd64a339519f5060cc77ecd"
 
   def install
     bin.install "venona"
