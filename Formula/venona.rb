@@ -2,16 +2,16 @@
 class Venona < Formula
   desc "venona --help"
   homepage "http://docs.codefresh.io"
-  version "0.25.1"
+  version "0.27.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/codefresh-io/venona/releases/download/v0.25.1/venona_0.25.1_Darwin_x86_64.tar.gz"
-    sha256 "f013787ce4d1a820270441d0a4fd5ec2692fc692238d4411c2f3766d2d785d70"
+    url "https://github.com/codefresh-io/venona/releases/download/v0.27.1/venona_0.27.1_Darwin_x86_64.tar.gz"
+    sha256 "e1812b895fbe415c4311a84c0695b33edcec53786de9afcd9fda58019944e93a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/codefresh-io/venona/releases/download/v0.25.1/venona_0.25.1_Linux_x86_64.tar.gz"
-      sha256 "d4d5f61b76ceef03158c19078eb4903a7b2321c6719bea46cf2b7a8112d6d1a3"
+      url "https://github.com/codefresh-io/venona/releases/download/v0.27.1/venona_0.27.1_Linux_x86_64.tar.gz"
+      sha256 "74a77cbc9907a552f644374e9d74bcee4e5d00b1ab46c0284143efa54a365186"
     end
   end
 
